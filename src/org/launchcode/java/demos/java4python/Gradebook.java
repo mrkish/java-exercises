@@ -27,7 +27,7 @@ public class Gradebook {
 
         } while(!newStudent.equals(""));
 
-        // Get student grades
+        // Get student grades -- "for-in, or for-each loop"
         for (String student : students) {
             System.out.print("Grade for " + student + ": ");
             Double grade = in.nextDouble();
